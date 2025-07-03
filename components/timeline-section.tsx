@@ -58,7 +58,8 @@ const TimelineSection = () => {
     }
   ];
 
-  return (
+return (
+  (
     <section id="timeline" className="py-20 bg-white dark:bg-gray-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
@@ -72,12 +73,7 @@ const TimelineSection = () => {
 
         <div className="relative">
           {/* Timeline line */}
-<<<<<<< HEAD
           <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-gradient-to-b from-blue-200 via-purple-200 to-orange-200 dark:from-blue-800 dark:via-purple-800 dark:to-orange-800"></div>
-=======
-          <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-gradient-to-b from-blue-200 via-green-200 via-purple-200 to-orange-200 dark:from-blue-800 dark:via-green-800 dark:via-purple-800 dark:to-orange-800"></div>
->>>>>>> 498a72db5c3973ba49fd545f3da88e69b7d58897
-
           <div className="space-y-12">
             {timelineEvents.map((event, index) => (
               <div key={index} className="relative flex items-start space-x-6">
@@ -130,7 +126,8 @@ const TimelineSection = () => {
         </div>
       </div>
     </section>
-  );
+  )
+);
 };
 
 export default TimelineSection;
