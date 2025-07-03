@@ -1,9 +1,9 @@
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { 
-  Monitor, 
-  Server, 
-  BookOpen, 
+import {
+  Monitor,
+  Server,
+  BookOpen,
   Wrench,
   Search
 } from 'lucide-react';
@@ -130,11 +130,7 @@ const SkillsSection = () => {
                           <span className="font-semibold text-gray-900 dark:text-white">
                             {skill.name}
                           </span>
-<<<<<<< HEAD
                           <Badge className={getLevelColor(skill.level ?? '')}>
-=======
-                          <Badge className={getLevelColor(skill.level)}>
->>>>>>> 498a72db5c3973ba49fd545f3da88e69b7d58897
                             {skill.level}
                           </Badge>
                         </div>
