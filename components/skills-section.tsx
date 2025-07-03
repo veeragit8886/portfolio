@@ -130,7 +130,11 @@ const SkillsSection = () => {
                           <span className="font-semibold text-gray-900 dark:text-white">
                             {skill.name}
                           </span>
+<<<<<<< HEAD
                           <Badge className={getLevelColor(skill.level ?? '')}>
+=======
+                          <Badge className={getLevelColor(skill.level)}>
+>>>>>>> 498a72db5c3973ba49fd545f3da88e69b7d58897
                             {skill.level}
                           </Badge>
                         </div>
